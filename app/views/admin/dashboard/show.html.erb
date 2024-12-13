@@ -1,2 +1,21 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Admin Dashboard</h1>
+<table class="table table-bordered">
+  <tbody>
+  <tr>
+    <td>
+      <span>Products in the database</span>
+    </td>
+    <td>
+      <a href="/admin/products"><%= @products.sum("quantity") %></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span>Categories in the database</span>
+    </td>
+    <td>
+      <p><%= @categories.count %></p>
+    </td>
+  </tr>
+  </tbody>
+</table>
