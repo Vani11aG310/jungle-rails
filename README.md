@@ -15,9 +15,13 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## Database
 
+Default database used is PostgreSQL.
+
 If Rails is complaining about authentication to the database, uncomment the user and password fields from `config/database.yml` in the development and test sections, and replace if necessary the user and password `development` to an existing database user.
 
 ## Stripe Testing
+
+Stripes is used to test the checkout page.
 
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
@@ -29,3 +33,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Screenshots
+
