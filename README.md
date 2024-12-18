@@ -36,3 +36,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots
 
+![screenshot of main page](https://github.com/Vani11aG310/jungle-rails/blob/master/docs/main%20page.png?raw=true)
+![screenshot of product cards](https://github.com/Vani11aG310/jungle-rails/blob/master/docs/product%20cards.png?raw=true)
+![screenshot of product details page](https://github.com/Vani11aG310/jungle-rails/blob/master/docs/product%20details.png?raw=true)
+![screenshot of admin dashboard](https://github.com/Vani11aG310/jungle-rails/blob/master/docs/admin%20dashboard.png?raw=true)
